@@ -2183,6 +2183,14 @@ input[type="color"] {
   display: inline-block;
   color: var(--bd-common-black);
 }
+.clamp-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Change this number to the number of lines you want */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .bd-feature__title {
   font-size: 17px;
   font-weight: 500;
