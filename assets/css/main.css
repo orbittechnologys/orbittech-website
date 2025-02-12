@@ -2540,7 +2540,7 @@ input[type="color"] {
 /*  14. PORTFOLIO CSS
 /*----------------------------------------*/
 .bd-portfolio__img img {
-  border-radius: 2;
+  border-radius: 10px;
   height: 40vh;
 }
 @media (max-width: 575px),
