@@ -1896,13 +1896,14 @@ input[type="color"] {
 }
 .bd-slider__subtitle {
   font-size: 28px;
-  font-weight: 500;
-  color: var(--bd-common-black);
+  font-weight: 700;
+  color: var(--bd-common-blacks);
   display: inline-block;
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.2;
+  color: var(--bd-theme-primary)
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1918,8 +1919,9 @@ input[type="color"] {
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 25px;
+  color: white;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bd-slider__title {
@@ -1933,6 +1935,8 @@ input[type="color"] {
 }
 .bd-slider__content p {
   font-size: 24px;
+  color: var(--bd-theme-primary);
+  font-weight: 700;
   margin-bottom: 45px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px),
@@ -2258,7 +2262,11 @@ input[type="color"] {
 .bd-testimonial__item {
   background-color: var(--bd-common-white);
   padding: 40px;
+  height: 350px;
 }
+/* .swiper-container {
+  height: 3700px;
+} */
 .bd-testimonial__icon {
   text-align: center;
   margin-bottom: 30px;
@@ -2532,7 +2540,8 @@ input[type="color"] {
 /*  14. PORTFOLIO CSS
 /*----------------------------------------*/
 .bd-portfolio__img img {
-  border-radius: 50%;
+  border-radius: 2;
+  height: 40vh;
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px),
