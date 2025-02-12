@@ -1903,7 +1903,7 @@ input[type="color"] {
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.2;
-  color: var(--bd-theme-primary)
+  color: var(--bd-theme-primary);
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px) {
